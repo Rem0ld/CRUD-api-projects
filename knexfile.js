@@ -2,7 +2,11 @@
 
 module.exports = {
   development: {
-    client: "sqlite3",
+    client: "pg",
     connection: "postgres://localhost/projects",
+  },
+  test: {
+    client: "pg",
+    connection: "postgres://localhost/test-projects",
   },
 };

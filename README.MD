@@ -28,48 +28,48 @@ We'll be using:
 - [x] Initialize knex project
   - [x] Install knex and pg (npm command)
   - [x] Create knexfile.js (knex init then clean up file make sure to be connected to right database)
-- [ ] Create sticker table migration
-- [ ] Seed sticker table with sample data
-- [ ] Convert Express App to JSON API
+- [x] Create projects table migration (knex migrate:make "name of table" knex migrate:latest)
+- [x] Seed projects table with sample data (knex seed:make 01_project knex seed:run)
+- [x] Convert Express App to JSON API
   - [x] Remove view rendering
   - [x] Remove routes folder
   - [x] Remove static serve and public folder
   - [x] Update error handler
-- [ ] Add api folder and create/mount router
-- [ ] Connect to the database'
-  - [ ] Create database connection file
-  - [ ] Create a queries file
-- [ ] List all records with GET /api/v1/stickers
-  - [ ] Create query
-  - [ ] Create route
+- [x] Add api folder and create/mount router
+- [x] Connect to the database
+  - [x] Create database connection file
+  - [x] Create a queries file
+- [x] List all records with GET /api/v1/projects
+  - [x] Create query
+  - [x] Create route
 - [ ] Setup tests
-  - [ ] Install mocha, chai and supertest
-  - [ ] Add a test database connection
-  - [ ] Add npm test script
-    - [ ] Drop/Create database
-  - [ ] Create before
-    - [ ] Run migrations/seeds on test db
-- [ ] Make sure the tests are working!
-- [ ] List all records with GET /api/v1/stickers
-  - [ ] Add test
-- [ ] Show one record with GET /api/v1/stickers/:id
-  - [ ] Validate id
-  - [ ] Create query
-  - [ ] Create route
-  - [ ] Add test
-- [ ] Create a record with POST /api/v1/stickers
-  - [ ] Create route
-  - [ ] Validate sticker!
-  - [ ] Create query
-  - [ ] Add test
-- [ ] Update a record with PUT /api/v1/stickers/:id
-  - [ ] Create route
-  - [ ] Validate id
-  - [ ] Validate updates
-  - [ ] Create query
-  - [ ] Add test
-- [ ] Delete a record with DELETE /api/v1/stickers/:id
-  - [ ] Create route
-  - [ ] Validate id
-  - [ ] Create query
-  - [ ] Add test
+  - [x] Install mocha, chai and supertest
+  - [x] Add a test database connection
+  - [x] Add npm test script
+    - [x] Drop/Create database
+  - [x] Create before
+    - [x] Run migrations/seeds on test db
+- [x] Make sure the tests are working!
+- [x] List all records with GET /api/v1/projects
+  - [x] Add test
+- [x] Show one record with GET /api/v1/projects/:id
+  - [x] Validate id
+  - [x] Create query
+  - [x] Create route
+  - [x] Add test
+- [x] Create a record with POST /api/v1/projects
+  - [x] Create route
+  - [x] Validate projects!
+  - [x] Create query
+  - [x] Add test
+- [x] Update a record with PUT /api/v1/projects/:id
+  - [x] Create route
+  - [x] Validate id
+  - [x] Validate updates
+  - [x] Create query
+  - [x] Add test
+- [x] Delete a record with DELETE /api/v1/projects/:id
+  - [x] Create route
+  - [x] Validate id
+  - [x] Create query
+  - [x] Add test
