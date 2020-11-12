@@ -5,6 +5,7 @@ exports.up = function (knex) {
     table.text("codeUrl");
     table.text("imageUrl");
     table.text("altImage");
+    table.text("stack");
   });
 };
 
