@@ -15,7 +15,7 @@
     "http-errors": "~1.6.3",
     "knex": "^0.21.12",
     "morgan": "~1.9.1",
-    "pg": "^8.5.0"
+    "pg": "^8.5.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
