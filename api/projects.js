@@ -26,6 +26,7 @@ router.get("/", (req, res) => {
   });
 });
 
+/*
 router.get("/:id", isValidId, (req, res) => {
   queries.getOne(req.params.id).then((project) => {
     res.json(project);
@@ -59,5 +60,5 @@ router.delete("/:id", isValidId, (req, res) => {
     });
   });
 });
-
+*/
 module.exports = router;

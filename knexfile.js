@@ -3,7 +3,7 @@
 module.exports = {
   development: {
     client: "pg",
-    connection: "postgres://pierre:test@localhost/pierresdb"
+    connection: "postgres://pierre:963254@localhost/projects"
   },
   test: {
     client: "pg",
