@@ -44,7 +44,7 @@ We'll be using:
 - [x] List all records with GET /api/v1/projects
   - [x] Create query
   - [x] Create route
-- [ ] Setup tests
+- [x] Setup tests
   - [x] Install mocha, chai and supertest
   - [x] Add a test database connection
   - [x] Add npm test script
@@ -75,6 +75,8 @@ We'll be using:
   - [x] Validate id
   - [x] Create query
   - [x] Add test
+  
+  
   
   
   > Created following the tutorial provided by [The Coding Garden](https://www.youtube.com/playlist?list=PLM_i0obccy3uwR6ZYa7QE03xDRAqs4Aso) a wonderful teacher/youtuber!
