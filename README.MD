@@ -1,6 +1,6 @@
 > Created following the tutorial provided by [The Coding Garden](https://www.youtube.com/playlist?list=PLM_i0obccy3uwR6ZYa7QE03xDRAqs4Aso) a wonderful teacher/youtuber!
 
-# Node.js Express JSON API - CRUD Stickers
+# Node.js Express JSON API - CRUD Projects
 
 We'll be using:
 
