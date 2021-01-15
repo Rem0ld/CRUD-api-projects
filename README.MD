@@ -26,7 +26,7 @@ We'll be using:
 - [x] Create a server folder
   - [x] Generate Express App (command express)
   - [x] initialize git repo
-- [x] Create database (commant createdb)
+- [x] Create database (command createdb)
 - [x] Initialize knex project
   - [x] Install knex and pg (npm command)
   - [x] Create knexfile.js (knex init then clean up file make sure to be connected to right database)
